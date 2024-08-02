@@ -9,10 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'background': "url('/background_image.jpg')"
       },
+      colors: {
+        'lightGray': '#DCDCDE',
+        'customPurple': '#7843E9'
+      },
+      padding: {
+        '100': '29rem'
+      },
+      margin: {
+        '100': '35rem'
+      }
     },
   },
   plugins: [],
