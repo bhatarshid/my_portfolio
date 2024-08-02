@@ -13,7 +13,8 @@ const config: Config = {
       },
       colors: {
         'lightGray': '#DCDCDE',
-        'customPurple': '#7843E9'
+        'customPurple': '#7843E9',
+        "color-1": "#b7bab2"
       },
       padding: {
         '100': '29rem'
