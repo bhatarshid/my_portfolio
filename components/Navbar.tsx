@@ -5,10 +5,10 @@ export const NavBarComponent = function() {
         <h1>Arshid Bhat</h1>
       </div>
       <div className="flex font-semibold text-lg space-x-4 md:space-x-8">
-        <h2>Home</h2>
-        <h2>About</h2>
-        <h2>Projects</h2>
-        <h2>Contact</h2>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </nav>

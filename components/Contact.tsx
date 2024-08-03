@@ -1,5 +1,5 @@
 export const ContactComponent = function() {
-  return <div>
+  return <div id="contact">
     <div>
       <div className="">
         <h2 className="text-4xl font-semibold text-center">Contact</h2>
