@@ -5,6 +5,7 @@ export const ProjectComponent = function() {
     <div id="project" className="flex flex-col px-4 sm:px-6 lg-px-8 font-serif py-28">
       <div className="flex flex-col pb-2">
         <h2 className="text-4xl font-semibold text-center">PROJECTS</h2>
+        <hr className="border-t-4 border-customPurple rounded-full w-10 mx-auto mt-5"/>
         <p className="text-center text-xl p-10">Here you will find some of the projects that I worked on.</p>
       </div>
       <div className="mx-72 text-justify px-7 space-y-10">
@@ -55,6 +56,6 @@ export const ProjectComponent = function() {
         </div>
       </div> 
     </div>
-    <hr className="h-px bg-gray-800 border-0 dark:bg-gray-700"/>
+    <hr className="border-t-2 border-gray-500 rounded-full mx-24"/>
   </>
 }

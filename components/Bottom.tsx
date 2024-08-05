@@ -23,7 +23,7 @@ export const BottomComponent = function() {
         </div>
       </div>
     </div>
-    <hr className="border-t-1 border-gray-500 mx-8" />
+    <hr className="border-t-2 rounded-full border-gray-500 mx-8" />
     <div className="py-8">
       <p className="text-xs text-center">© Copyright 2024. Made by <u><strong>Arshid Bhat</strong></u></p>
     </div>

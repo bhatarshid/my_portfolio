@@ -5,6 +5,7 @@ export const AboutComponent = function() {
     <div className="flex flex-col sm:px-6 lg-px-8 font-serif py-28">
       <div className="flex flex-col pb-2">
         <h2 className="text-4xl font-semibold text-center">ABOUT ME</h2>
+        <hr className="border-t-4 border-customPurple rounded-full w-10 mx-auto mt-5"/>
         <p className="text-center text-xl p-10">Here you will find more information about me, what I do, and my current skills mostly in terms <br />of programming and technology</p>
       </div>
       <div className="flex item-center- justify-center p-5 ml-4">
@@ -31,6 +32,6 @@ export const AboutComponent = function() {
         </div>
       </div>
     </div>
-    <hr className="h-px bg-gray-800 border-0 dark:bg-gray-700"/>
+    <hr className="border-t-2 border-gray-500 rounded-full mx-24"/>
   </div>
 }

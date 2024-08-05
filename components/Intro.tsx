@@ -9,6 +9,6 @@ export const IntroComponent = function() {
         PROJECTS
       </a>
     </div>
-    <hr className="h-px bg-gray-800 border-0 dark:bg-gray-700"/>
+    <hr className="border-t-2 border-gray-500 rounded-full mx-24"/>
   </div>
 }
