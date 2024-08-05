@@ -1,3 +1,6 @@
+'use client'
+import Lottie from "lottie-react";
+import mouseAnimation from '@/public/mouse-animation.json';
 export const IntroComponent = function() {
   return <div>
     <div className="flex flex-col justify-center items-center px-4 sm:px-6 lg-px-8 font-serif pt-56 pb-28 min-h-screen">
@@ -8,6 +11,9 @@ export const IntroComponent = function() {
             className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-10 rounded-lg transition duration-300 mt-10">
         PROJECTS
       </a>
+    </div>
+    <div className="flex justify-center">
+      <Lottie animationData={mouseAnimation} loop={ true } className="w-36 h-36 md:w-52 md:h-52"/>
     </div>
     <hr className="border-t-2 border-gray-500 rounded-full mx-24"/>
   </div>
