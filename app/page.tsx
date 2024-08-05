@@ -10,7 +10,7 @@ export default function Portfolio() {
   return <>
     <NavBarComponent/>
     <LeftbarComponent/>
-    <main className="bg-background bg-cover bg-center bg-no-repeat w-full">
+    <main className="bg-background bg-repeat w-full">
       <IntroComponent/>
       <AboutComponent/>
       <ProjectComponent/>
