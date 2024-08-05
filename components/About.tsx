@@ -2,7 +2,7 @@ import { SkillsComponent } from "./Skills"
 
 export const AboutComponent = function() {
   return <div id="about">
-    <div className="flex flex-col sm:px-6 lg-px-8 font-serif py-28">
+    <div className="flex flex-col justify-center items-center sm:px-6 lg-px-8 font-serif md:min-h-screen py-28">
       <div className="flex flex-col pb-2">
         <h2 className="text-4xl font-semibold text-center">ABOUT ME</h2>
         <hr className="border-t-4 border-customPurple rounded-full w-10 mx-auto mt-5"/>
