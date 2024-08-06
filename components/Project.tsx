@@ -8,7 +8,7 @@ export const ProjectComponent = function() {
         <hr className="border-t-4 border-customPurple rounded-full w-10 mx-auto mt-5"/>
         <p className="text-center text-xl p-10">Here you will find some of the projects that I worked on.</p>
       </div>
-      <div className="mx-72 text-justify px-7 space-y-10">
+      <div className="mx-auto w-full sm:w-2/3 text-justify px-7 space-y-10">
         <div className="flex flex-row">
           <h3 className="w-2/3 text-lg font-semibold min-w-36">Horizon</h3>
           <div className="flex flex-col space-y-3">
