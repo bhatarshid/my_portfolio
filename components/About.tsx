@@ -11,7 +11,7 @@ export const AboutComponent = function() {
       <div className="flex flex-col sm:flex-row justify-center p-5 sm:ml-4 sm:space-y-0 space-y-8">
         <div className="w-3/4 sm:w-1/2 sm:pr-10 md:pr-14 lg:pr-16 sm:mx-0 mx-auto">
           <h3 className="text:xl md:text-2xl lg:text-3xl font-semibold">Get to know me!</h3>
-          <p className="text-justify font-montserrat py-5 pb-10">I'm and experienced Software developer with more than two years of hands-on experience in Software Engineering practice. I'm proficient in Restful API, Node.Js, Express.Js, MySql, MongoDB, Microservice Architecture, Git, and DSA. I'm dedicated to implementing new projects, enhancing software efficiency, and continuously improving technical expertise. I have ability to translate business requirements into technical solutions.</p>
+          <p className="text-justify font-montserrat py-5 pb-10">I&apos;m and experienced Software developer with more than two years of hands-on experience in Software Engineering practice. I&apos;m proficient in Restful API, Node.Js, Express.Js, MySql, MongoDB, Microservice Architecture, Git, and DSA. I&apos;m dedicated to implementing new projects, enhancing software efficiency, and continuously improving technical expertise. I have ability to translate business requirements into technical solutions.</p>
           <a href="#contact" 
             className="bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-lg transition duration-300 py-3 px-10">
             Contact
