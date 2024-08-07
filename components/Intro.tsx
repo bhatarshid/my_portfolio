@@ -3,10 +3,9 @@ import Lottie from "lottie-react";
 import mouseAnimation from '@/public/mouse-animation.json';
 export const IntroComponent = function() {
   return <div>
-    <div className="flex flex-col justify-center items-center px-4 sm:px-6 lg-px-8 font-serif pt-56 pb-28 min-h-screen">
-      <h1 className="text-2xl text-center md:text-4xl lg:text-6xl font-extrabold pb-10 px-10 lg:px-0">HEY, I&apos;M ARSHID BHAT</h1>
-      <p className="text-center text-xl md:w-1/2 px-10 md:px-0">A Result-Oriented Web Developer building and managing Websites and
-        Web Applications that leads to the success of the overall product</p>
+    <div className="flex flex-col justify-center items-center px-4 sm:px-6 lg-px-8 pt-56 pb-28 min-h-screen">
+      <h1 className="text-2xl text-center md:text-4xl lg:text-6xl font-bold sm:font-extrabold pb-10 px-10 lg:px-0">HEY, I&apos;M ARSHID BHAT</h1>
+      <p className="text-center text-lg sm:text-xl font-medium md:w-1/2 px-10 md:px-0">A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
       <a href="#project" 
             className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-10 rounded-lg transition duration-300 mt-10">
         PROJECTS

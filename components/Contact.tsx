@@ -20,11 +20,11 @@ export const ContactComponent = function() {
     event.preventDefault();
     alert(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
   }
-  return <div id="contact" className="flex flex-col justify-center px-4 sm:px-6 lg-px-8 font-serif md:min-h-screen py-28">
+  return <div id="contact" className="flex flex-col justify-center px-4 sm:px-6 lg-px-8 md:min-h-screen py-28">
       <div className="flex flex-col pb-2">
-        <h2 className="text:xl md:text-2xl lg:text-4xl font-semibold text-center">Contact</h2>
+        <h2 className="text-2xl sm:text-4xl font-bold text-center">Contact</h2>
         <hr className="border-t-4 border-customPurple rounded-full w-10 mx-auto mt-5"/>
-        <p className="mx-auto text-center text-base sm:text-xl md:w-1/2 px-10 py-10 md:px-0">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+        <p className="text-center text-base sm:text-xl font-medium mx-auto md:w-1/2 px-10 py-8 md:px-0">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
         <form className="flex flex-col bg-white w-full sm:w-3/5 mx-auto rounded-md" onSubmit={handler} >
           <div className="space-y-2 px-10 mt-10">
             <label className="block text-sm font-semibold">Name</label>

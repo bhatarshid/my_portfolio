@@ -21,6 +21,11 @@ const config: Config = {
       },
       margin: {
         '100': '35rem'
+      },
+      fontFamily: {
+        'montserrat': ["montserrat", "sans-serif"],
+        'ubuntu': ["Ubuntu", "sans-serif"],
+        'calli': ["Calligraffitti", "cursive"]
       }
     },
   },
