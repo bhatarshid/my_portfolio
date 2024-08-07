@@ -4,12 +4,12 @@ export const ProjectComponent = function() {
   return <>
     <div id="project" className="flex flex-col justify-center px-4 sm:px-6 lg-px-8 font-serif md:min-h-screen py-28">
       <div className="flex flex-col pb-2">
-        <h2 className="text-4xl font-semibold text-center">PROJECTS</h2>
+        <h2 className="text:xl md:text-2xl lg:text-4xl font-semibold text-center">PROJECTS</h2>
         <hr className="border-t-4 border-customPurple rounded-full w-10 mx-auto mt-5"/>
-        <p className="text-center text-xl p-10">Here you will find some of the projects that I worked on.</p>
+        <p className="mx-auto text-center text-base sm:text-xl md:w-1/2 px-10 py-10 md:px-0">Here you will find some of the projects that I worked on.</p>
       </div>
       <div className="mx-auto w-full sm:w-2/3 text-justify px-7 space-y-10">
-        <div className="flex flex-row">
+        <div className="flex flex-col md:flex-row">
           <h3 className="w-2/3 text-lg font-semibold min-w-36">Horizon</h3>
           <div className="flex flex-col space-y-3">
             <div>
@@ -23,7 +23,7 @@ export const ProjectComponent = function() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-col md:flex-row">
           <h3 className="w-2/3 text-lg font-semibold min-w-36">R-Office</h3>
           <div className="flex flex-col space-y-3">
             <div>
@@ -39,7 +39,7 @@ export const ProjectComponent = function() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-col md:flex-row">
           <h3 className="w-2/3 text-lg font-semibold min-w-36">VMS</h3>
           <div className="flex flex-col space-y-3">
             <div>
