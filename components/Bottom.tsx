@@ -6,7 +6,7 @@ export const BottomComponent = function() {
     <div className="flex flex-col-reverse sm:flex-row justify-between mx-8 py-10">
       <div className="w-4/5 sm:w-3/5">
         <h3 className="font-bold text-xl pb-5 text-start">ARSHID BHAT</h3>
-        <p className="text-justify text-base sm:text-lg font-medium">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.  </p>
+        <p className="text-justify text-base sm:text-lg font-medium">Focused Web Developer building the Frontend and Backend of Websites and Web Applications that leads to the success of the overall product.  </p>
       </div>
       <div className="mb-8 sm:mb-0">
       <h3 className="font-bold text-xl pb-5 text-start">SOCIAL</h3>
